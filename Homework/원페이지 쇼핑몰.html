@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <title>원페이지 쇼핑몰 | 주문하기</title>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gugi&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            font-family: 'Black Han Sans', sans-serif;
+            font-size: large;
+        }
+
+        .mytitle {
+            color: white;
+            width: 500px;
+            height: 300px;
+            background-image: url('https://t1.daumcdn.net/cfile/tistory/99C7E14E5A81600028');
+            background-position: center;
+            ;
+            background-size: cover;
+
+            border-radius: 10px;
+            text-align: center;
+            padding-top: 40px;
+        }
+
+        .wrap {
+            margin: 50px auto;
+            width: 500px;
+        }
+
+        .mybtn {
+            padding: 10px 10px 10px 10px;
+            background-color: blue;
+            color: white;
+            border-radius: 4px;
+
+        }
+    </style>
+    <script>
+        function hey() {
+            alert('주문이 완료되었습니다.');
+        }
+    </script>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="mytitle">
+
+        </div>
+        <h1>최고의 자동차를 팝니다</h1>
+        <h4>힘차게, 빠르게, 안전하게</h4>
+        <h5>문을 여는 순간, 당신은 이미 세상의 중심에 서 계십니다.</h5>
+
+        <div>
+            <p>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">주문자 이름</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Default"
+                    aria-describedby="inputGroup-sizing-default">
+            </div>
+            </p>
+            <p>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">차종선택</span>
+                </div>
+                <select id="cars">
+                    <option value="volvo">--차종을 선택하세요--</option>
+                    <option value="volvo">Mercedes</option>
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">BMW</option>
+                    <option value="audi">Audi</option>
+                </select>
+            </div>
+
+
+
+            </p>
+            <p>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">주소</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Default"
+                    aria-describedby="inputGroup-sizing-default">
+            </div>
+            </p>
+            <p>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="inputGroup-sizing-default">전화번호</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Default"
+                    aria-describedby="inputGroup-sizing-default">
+            </div>
+            </p>
+        </div>
+        <div>
+        <center>
+        <button onclick="hey()" type="button" class="btn btn-primary">주문하기</button>
+        </center>
+        
+    </div>
+    </div>
+</body>
+</body>
+
+</html>
