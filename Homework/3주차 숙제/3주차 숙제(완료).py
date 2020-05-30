@@ -16,6 +16,6 @@ for tr in trs:
     title = tr.select_one('td.info > a.title.ellipsis')
     
     song = title.text.strip()
-    rank = tr.select_one('td.number').text.strip()
+    rank = tr.select_one('td.number').text.split('\n')[0]
     singer = tr.select_one('td.info > a.artist.ellipsis').text.strip()
     print(rank,song,singer)
